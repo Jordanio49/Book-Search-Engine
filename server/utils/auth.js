@@ -35,7 +35,7 @@ module.exports = {
       console.log('Invalid token');
       return res.status(400).json({ message: 'invalid token!' });
     }
-    
+
     // returning up to date request object
     return req;
   }
